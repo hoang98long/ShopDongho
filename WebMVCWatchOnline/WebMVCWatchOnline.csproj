@@ -168,6 +168,7 @@
     <Compile Include="Models\Entities\Cart.cs" />
     <Compile Include="Models\Entities\Contact.cs" />
     <Compile Include="Models\Entities\Customer.cs" />
+    <Compile Include="Models\Entities\Donhang.cs" />
     <Compile Include="Models\Entities\FeedBack.cs" />
     <Compile Include="Models\Entities\NewsFeed.cs" />
     <Compile Include="Models\Entities\OrderDetail.cs" />
@@ -402,7 +403,7 @@
     <Content Include="Areas\Admin\Views\Bill\EditBill.cshtml" />
     <Content Include="Areas\Admin\Views\Bill\AddDetail.cshtml" />
     <Content Include="Areas\Admin\Views\Bill\AddBill.cshtml" />
-    <Content Include="Areas\Admin\Views\Bill\ConfirmBill.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\ConfirmDetail.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Add.cshtml" />
     <Content Include="Areas\Admin\Views\Account\Index.cshtml" />

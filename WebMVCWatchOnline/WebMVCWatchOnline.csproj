@@ -369,6 +369,7 @@
     <Content Include="Views\Employee\LogIn.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Dangki\Index.cshtml" />
+    <Content Include="Views\Shared\User.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

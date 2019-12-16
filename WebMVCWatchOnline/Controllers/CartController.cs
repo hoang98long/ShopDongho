@@ -84,6 +84,10 @@ namespace WebMVCWatchOnline.Controllers
             decimal tong = model.F_Cart.CartList.Sum(item => decimal.Parse(item.Price) * item.Quantity);
             Bill hd = new Bill();
             //Customer newcs = shop.Customers.Where(z => z.Id == hd.Customer_Id).FirstOrDefault();
+            var listID = shop.Bills.OrderByDescending(p => p.Id).ToList();
+            Bill maxId = listID.FirstOrDefault();
+            int id = maxId.Id;
+            hd.Id = id + 1;
             hd.Customer_Id = hoadon.Customer_Id;
             hd.TotalMoney = hoadon.TotalMoney;
             hd.Date = hoadon.Date;

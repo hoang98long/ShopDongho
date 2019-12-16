@@ -190,64 +190,70 @@ namespace WebMVCWatchOnline.Areas.Admin.Controllers
         [ValidateInput(false)]
         public ActionResult Add(Product model, HttpPostedFileBase file)
         {
-
-            ShopWatchContext shop = new ShopWatchContext();
-            var listHang = shop.Products.OrderByDescending(p => p.ProductID).ToList();
-            Product maxId = listHang.FirstOrDefault();
-            int id = maxId.ProductID;
-            file = file ?? Request.Files["file"];
-            if (file != null && file.ContentLength > 0)
+            if (Session["Id"] == null)
             {
-                var fileName = Path.GetFileName(file.FileName);
-                if (fileName != null)
+                return RedirectToAction("LogIn", "Admin1");
+            }
+            else
+            {
+                ShopWatchContext shop = new ShopWatchContext();
+                var listHang = shop.Products.OrderByDescending(p => p.ProductID).ToList();
+                Product maxId = listHang.FirstOrDefault();
+                int id = maxId.ProductID;
+                file = file ?? Request.Files["file"];
+                if (file != null && file.ContentLength > 0)
                 {
-                    var path = Path.Combine(Server.MapPath("~/images/products/"), fileName);
-                    file.SaveAs(path);
-                    Product sp = new Product();
+                    var fileName = Path.GetFileName(file.FileName);
+                    if (fileName != null)
+                    {
+                        var path = Path.Combine(Server.MapPath("~/images/products/"), fileName);
+                        file.SaveAs(path);
+                        Product sp = new Product();
 
+                        sp.ProductID = id + 1;
+                        sp.ProductName = model.ProductName;
+                        sp.CategoryID = model.CategoryID;
+                        sp.Quantity = model.Quantity;
+                        sp.PromotionPrice = model.PromotionPrice;
+                        sp.Price = model.Price;
+                        sp.ProductImage = "/images/products/" + fileName;
+
+
+                        sp.Description = model.Description;
+                        sp.Detail = model.Detail;
+
+                        sp.CreatedDate = DateTime.Now;
+                        shop.Products.Add(sp);
+                        shop.SaveChanges();
+                        Response.Redirect("Index");
+                    }
+                }
+                else
+                {
+
+
+                    Product sp = new Product();
                     sp.ProductID = id + 1;
                     sp.ProductName = model.ProductName;
                     sp.CategoryID = model.CategoryID;
                     sp.Quantity = model.Quantity;
                     sp.PromotionPrice = model.PromotionPrice;
                     sp.Price = model.Price;
-                    sp.ProductImage = "/images/products/" + fileName;
+                    sp.ProductImage = "~/images/p-8.png";
 
 
                     sp.Description = model.Description;
-                    sp.Detail = model.Detail;
 
+                    sp.Detail = model.Detail;
                     sp.CreatedDate = DateTime.Now;
                     shop.Products.Add(sp);
                     shop.SaveChanges();
                     Response.Redirect("Index");
                 }
+
+
+                return View("Index", shop);
             }
-            else
-            {
-                
-
-                Product sp = new Product();
-                sp.ProductID = id+1;
-                sp.ProductName = model.ProductName;
-                sp.CategoryID = model.CategoryID;
-                sp.Quantity = model.Quantity;
-                sp.PromotionPrice = model.PromotionPrice;
-                sp.Price = model.Price;
-                sp.ProductImage = "~/images/p-8.png";
-
-
-                sp.Description = model.Description;
-
-                sp.Detail = model.Detail;
-                sp.CreatedDate = DateTime.Now;
-                shop.Products.Add(sp);
-                shop.SaveChanges();
-                Response.Redirect("Index");
-            }
-
-
-            return View("Index",shop);
         }
     }
 }

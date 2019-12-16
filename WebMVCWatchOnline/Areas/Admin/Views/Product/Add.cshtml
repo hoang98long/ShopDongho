@@ -1,0 +1,134 @@
+﻿@*
+@using WebMVCWatchOnline.Models.Entities
+@{
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+    //    ProductCategory modelCategory = new ProductCategory();
+}
+
+@model Product
+<div style="height:100vh;  overflow-y:scroll;">
+    <h1 class="page-header">
+        <a href="/Admin/Product/Index" class="btn btn-outline btn-primary">Quay lại</a>
+    </h1>
+    <div class="row" style="margin-bottom: 50px;">
+
+        <div class="col-md-12">
+            
+            @using (Html.BeginForm("Add", "Product", FormMethod.Post, new { enctype = "multipart/form-data", id = "frmThem" }))
+            {
+                <div class="form-group input-group" style="display: block;">
+                    <label>Tên sản phẩm</label>
+                    @Html.TextBoxFor(m => m.ProductName, new { @class = "form-control", placeholder = "Tên sản phẩm", required = "required" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Hãng</label>
+                 @Html.DropDownListFor(m => m.CategoryID, (List<SelectListItem>)ViewBag.Hang, "CHỌN HÃNG", new { @class = "form-control ", required = "required" }) 
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Số lượng</label>
+                    @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control", type = "number", placeholder = "Số lượng", required = "required" }) 
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Giá nhập</label>
+                @Html.TextBoxFor(m => m.PromotionPrice, new { @class = "form-control", type = "number", placeholder = "Giá nhập", required = "required" }) 
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Giá bán</label>
+                   @Html.TextBoxFor(m => m.Price, new { @class = "form-control", type = "number", placeholder = "Giá bán", required = "required" }) 
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Ảnh</label>
+                    <input type="file" name="file" class="form-control" />
+                    <input type="hidden" name="img" class="form-control" value="@Model.ProductImage" />
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Mô tả</label>
+                    @Html.TextBoxFor(m => m.Description, new { @class = "form-control", placeholder = "Mô tả" }) 
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Chi tiết</label>
+                    @Html.TextAreaFor(m => m.Detail, new { id = "chitiet", @class = "form-control", type = "number", placeholder = "Chi tiết" }) 
+                </div>
+                <div style="float: left">
+                    <input type="submit" class="btn btn-outline btn-primary" value="Chấp nhận" />
+                    <input type="reset" class="btn btn-outline btn-primary" value="Làm lại" />
+                </div>
+            }
+        </div>
+
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/ckeditor/ckeditor.js"></script>
+<script src="~/ckfinder/ckfinder.js"></script>
+<Script>
+    CKEDITOR.replace('chitiet');
+</Script>
+*@
+@using WebMVCWatchOnline.Models.Entities
+@{
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+    //    ProductCategory modelCategory = new ProductCategory();
+}
+
+@model Product
+<div style="height:100vh;  overflow-y:scroll;">
+    <h1 class="page-header">
+        <a href="/Admin/Product/Index" class="btn btn-outline btn-primary">Quay lại</a>
+    </h1>
+    <div class="row" style="margin-bottom: 50px;">
+
+        <div class="col-md-12">
+
+            @using (Html.BeginForm("Add", "Product", FormMethod.Post, new { enctype = "multipart/form-data", id = "frmThem" }))
+            {
+
+                <div class="form-group input-group" style="display: block;">
+                    <label>Hãng</label>
+                    @Html.DropDownListFor(m => m.CategoryID, (List<SelectListItem>)ViewBag.Hang, "CHỌN HÃNG", new { @class = "form-control ", required = "required" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Chi tiết</label>
+                    @Html.TextAreaFor(m => m.Detail, new { id = "chitiet", @class = "form-control", type = "number", placeholder = "Chi tiết" })
+                </div>
+                
+                <div class="form-group input-group" style="display: block;">
+                    <label>Tên sản phẩm</label>
+                    @Html.TextBoxFor(m => m.ProductName, new { @class = "form-control", placeholder = "Tên sản phẩm", required = "required" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Số lượng</label>
+                    @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control", type = "number", placeholder = "Số lượng", required = "required" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Giá nhập</label>
+                    @Html.TextBoxFor(m => m.PromotionPrice, new { @class = "form-control", type = "number", placeholder = "Giá nhập", required = "required" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Giá bán</label>
+                    @Html.TextBoxFor(m => m.Price, new { @class = "form-control", type = "number", placeholder = "Giá bán", required = "required" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Mô tả</label>
+                    @Html.TextBoxFor(m => m.Description, new { @class = "form-control", placeholder = "Mô tả" })
+                </div>
+                <div class="form-group input-group" style="display: block;">
+                    <label>Ảnh</label>
+                    <input type="file" name="file" class="form-control" />
+                </div>
+               
+                <div style="float: left">
+                    <input type="submit" class="btn btn-outline btn-primary" value="Thêm" />
+                    <input type="reset" class="btn btn-outline btn-primary" value="Làm lại" />
+                </div>
+            }
+        </div>
+
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/ckeditor/ckeditor.js"></script>
+<script src="~/ckfinder/ckfinder.js"></script>
+<Script>
+    CKEDITOR.replace('chitiet');
+</Script>

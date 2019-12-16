@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@using WebMVCWatchOnline.Models.Entities
+@model WebMVCWatchOnline.Models.Functions.CartViewModel
+<link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/css/GioHang.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".soluong").change(function () {
+            if ($(this).val() > 0) {
+                var quanlity = $(this).val();
+                var proID = $(this).attr("id");
+
+                $.ajax({
+                    url: '@Url.Action("UpdateQuantity")',
+                    data: { "ProductId": proID, "soLuong": quanlity }
+                });
+
+                window.location = '/Cart';
+            }
+
+        });
+    });
+</script>
+
+<div class="container" style="padding: 6em 0px;">
+    <div class="content-panel-title">
+
+        <h2>Giỏ hàng </h2>
+    </div>
+    @if (Model != null && Model.F_Cart!= null)
+    {
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th style="width: 50%">Sản phẩm</th>
+                    <th style="width: 10%">Giá</th>
+                    <th style="width: 8%">Số lượng</th>
+                    <th style="width: 22%" class="text-center">Tổng</th>
+                    <th style="width: 10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    double tong = 0;
+                }
+                @foreach (var item in Model.F_Cart.CartList) 
+                 { 
+                     tong += item.Amount; 
+                   <tr>
+                         <td data-th="Product"> 
+                            <div class="row"> 
+                                <div class="col-sm-2 hidden-xs"> 
+                                    <img src="@item.Image" alt="..." class="img-responsive" /> 
+                                  </div> 
+                                  <div class="col-sm-10"> 
+                                      <h4 class="nomargin">@item.ProductName</h4> 
+                                  </div> 
+                              </div>
+                          </td> 
+                          <td data-th="Price">@double.Parse(@item.Price.ToString()).ToString("##,###")</td> 
+                         <td data-th="Quantity"> 
+                              @InputExtensions.TextBox(Html, "Product" + item.ProductId.ToString(), item.Quantity, new { @class = "form-control text-center soluong", type = "number" }) 
+                          </td> 
+                         <td data-th="Subtotal" class="text-center">@double.Parse(@item.Price.ToString()).ToString("##,###")</td> 
+                          <td class="actions" data-th=""> 
+                              <a href="/Cart/DeleteProduct/@item.ProductId" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a> 
+                          </td> 
+                      </tr> 
+                 } 
+
+            </tbody>
+            <tfoot>
+                <tr class="visible-xs">
+                    <td class="text-center"><strong> @double.Parse(tong.ToString()).ToString("##,###")</strong></td>
+                </tr>
+                <tr>
+                    <td><a href="/Home/Index" class="btn btn-warning"><i class="fa fa-angle-left"></i> Mua tiếp</a></td>
+                    <td colspan="2" class="hidden-xs"></td>
+                    <td class="hidden-xs text-center"><strong>@double.Parse(tong.ToString()).ToString("##,###") VNĐ</strong></td>
+                    <td><a href="/Cart/FillInfo" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a></td>
+                </tr>
+            </tfoot>
+        </table>
+    }
+
+</div>

@@ -1,0 +1,62 @@
+﻿@using WebMVCWatchOnline.Models.Entities;
+
+@{
+    ViewBag.Title = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ShopWatchContext shop = new ShopWatchContext();
+
+}
+@model List<ProductCategory>
+<div class="product" style="padding: 6em 0px;">
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="content-panel-title">
+                <a href="/Home/CategoryDetail/@item.CategoryID" class="right">Xem thêm</a>
+                <h2>@item.Name </h2>
+            </div>
+            <div class="product-top">
+                <div class="product-one">
+                    @foreach (var sp in shop.Products.Where(s => s.CategoryID == item.CategoryID))
+                    {
+
+                        <div class="col-md-3 product-left" style="margin-bottom: 10px">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="/Home/ProductDetail/@sp.ProductID" class="mask"><img class="img-responsive zoom-img" src="@sp.ProductImage" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>@sp.ProductName</h3>
+
+                                    <h4><a class="item_add" href="javascript:;" onclick="ThemGioHang(@sp.CategoryID)"><i></i></a> <span class="item_price">@sp.Price</span></h4>
+                                </div>
+                                @*<div class="srch">
+                                        <span>-50%</span>
+                                    </div>*@
+                            </div>
+                        </div>
+                    }
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function ThemGioHang(CategoryID) {
+
+        $.ajax({
+            url: '/GioHang/ThemVaoGioHang/?id=' + CategoryID + '&soLuong=' + 1 + '',
+            type: 'POST',
+            dataType: 'json',
+            success: function (data) {
+                var json = JSON.parse(data);
+                alert(json);
+                window.location.reload();
+            },
+            error: function (err) {
+                alert("Đã xảy ra lỗi"+err.responseText);
+            }
+        });
+    };
+</script>

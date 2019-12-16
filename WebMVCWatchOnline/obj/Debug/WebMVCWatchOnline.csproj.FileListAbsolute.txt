@@ -1,0 +1,336 @@
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll.config
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebMVCWatchOnline.pdb
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csc.exe
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csc.exe.config
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csc.rsp
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csi.exe
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csi.rsp
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.AppContext.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.Collections.Immutable.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.Reflection.Metadata.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\vbc.exe
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\vbc.exe.config
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\vbc.rsp
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe.config
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Antlr3.Runtime.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.SqlServer.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Microsoft.Web.Infrastructure.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Newtonsoft.Json.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.Mvc.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Helpers.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Mvc.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Optimization.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Razor.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebGrease.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.SqlServer.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.Mvc.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Helpers.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Mvc.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Optimization.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Razor.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Newtonsoft.Json.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Antlr3.Runtime.pdb
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojResolveAssemblyReference.cache
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.dll
+E:\TAI LIEU HOC TAP\KI 6\ky 6\web\Huy_Ha_Long_Quyet\WatchesOnlineWebsite\WebMVCWatchOnline\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\WebGrease.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\WebMVCWatchOnline\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebGrease.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.dll
+C:\Users\Admin\Desktop\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.pdb
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll.config
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.pdb
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.exe
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.exe.config
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.rsp
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\csi.exe
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\csi.rsp
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.AppContext.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Collections.Immutable.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Reflection.Metadata.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.exe
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.exe.config
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.rsp
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe.config
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Antlr3.Runtime.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.SqlServer.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Microsoft.Web.Infrastructure.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Newtonsoft.Json.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\PagedList.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\PagedList.Mvc.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Net.Http.Formatting.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Helpers.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.WebHost.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Mvc.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Optimization.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Razor.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\WebGrease.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.SqlServer.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\PagedList.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\PagedList.Mvc.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Net.Http.Formatting.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.WebHost.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Helpers.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Mvc.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Optimization.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.Razor.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Newtonsoft.Json.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Antlr3.Runtime.pdb
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojAssemblyReference.cache
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csproj.CoreCompileInputs.cache
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csproj.CopyComplete
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.dll
+G:\MTA\Year4\Kỳ 1 năm 4\ME\Ms.Huong\Template\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll.config
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\WebGrease.dll
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\WEB\WebMVCWatchOnline\CN_WEB\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

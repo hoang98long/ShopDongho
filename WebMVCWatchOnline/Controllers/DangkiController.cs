@@ -37,8 +37,7 @@ namespace WebMVCWatchOnline.Controllers
                 var fileName = Path.GetFileName(file.FileName);
                 if (fileName != null)
                 {
-                    var path = Path.Combine(Server.MapPath("~/images/products/"), fileName);
-                    file.SaveAs(path);
+                    
                     User_ sp = new User_();
 
                     sp.Id = id + 1;

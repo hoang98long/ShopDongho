@@ -1,35 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using PagedList;
 using WebMVCWatchOnline.Models.Entities;
-using WebMVCWatchOnline.Models.Functions;
 
-
-namespace WebMVCWatchOnline.Controllers
+namespace WebMVCWatchOnline.Areas.Admin.Controllers
 {
-    public class CategoryController : Controller
+    public class CategoriesController : Controller
     {
-        // GET: QLHang
         private static int mahang;
+        // GET: Admin/Categories
         public ActionResult Index(int? page)
         {
-            /*if (Session["Id"] == null)
+            if (Session["Id"] == null)
             {
                 return RedirectToAction("LogIn", "Admin1");
             }
             else
             {
                 ShopWatchContext shop = new ShopWatchContext();
-                var model = shop.ProductCategories.ToList();
+                var cates = shop.ProductCategories.ToList();
+                int pageIndex = 1, pageSize = 10;
+                pageIndex = page.HasValue ? Convert.ToInt32(page) : 1;
+                var model = cates.ToPagedList(pageIndex, pageSize);
                 return View(model);
-            }*/
-            return View("hahah");
-
+            }
         }
+
         [HttpGet]
         public ActionResult AddCate()
         {
@@ -127,4 +126,4 @@ namespace WebMVCWatchOnline.Controllers
         }
 
     }
- }
+}

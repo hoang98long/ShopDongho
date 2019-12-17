@@ -399,6 +399,6 @@ C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\bin\System.Web.WebPages.Razo
 C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\bin\Newtonsoft.Json.xml
 C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.dll
 C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.pdb
+C:\Users\Admin\Desktop\ShopDongho\WebMVCWatchOnline\obj\Debug\WebMVCWatchOnline.csprojResolveAssemblyReference.cache

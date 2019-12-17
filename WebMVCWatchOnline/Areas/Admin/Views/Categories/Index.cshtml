@@ -3,13 +3,10 @@
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
 }
-@using WebMVCWatchOnline.Models.Entities;
 @using PagedList
 @using PagedList.Mvc
-@*@model PagedList.IPagedList<ProductCategory>*@
-@model String
-
-<h6>@Model</h6>
+@using WebMVCWatchOnline.Models.Entities;
+@model PagedList.IPagedList<ProductCategory>
 <link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
 <h1 class="page-header">
     <a href="/Admin/Category/AddCate" class="btn btn-outline btn-primary">Thêm</a>
@@ -35,8 +32,8 @@
                         <td>@Model[i].CategoryID</td>
                         <td>@Model[i].Name</td>
 
-                        <td><a href="/Admin/Category/EditCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Sửa</a></td>
-                        <td><a href="/Admin/Category/DeleteCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Xóa</a></td>
+                        <td><a href="/Admin/Categories/EditCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Sửa</a></td>
+                        <td><a href="/Admin/Categories/DeleteCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Xóa</a></td>
                     </tr>
                 }
                 else
@@ -45,8 +42,8 @@
                         <td>@Model[i].CategoryID</td>
                         <td>@Model[i].Name</td>
 
-                        <td><a href="/Admin/Category/EditCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Sửa</a></td>
-                        <td><a href="/Admin/Category/DeleteCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Xóa</a></td>
+                        <td><a href="/Admin/Categories/EditCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Sửa</a></td>
+                        <td><a href="/Admin/Categories/DeleteCate/@Model[i].CategoryID" class="btn btn-outline btn-primary">Xóa</a></td>
 
                     </tr>
                 }
@@ -63,3 +60,7 @@
     <script src="~/Scripts/bootstrap.min.js"></script>
 
     <script src="~/Scripts/sb-admin-2.js"></script>*@
+
+
+
+

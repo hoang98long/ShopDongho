@@ -150,6 +150,7 @@
     <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Admin\Controllers\DemoController.cs" />
     <Compile Include="Areas\Admin\Controllers\HaController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Controllers\Admin1Controller.cs" />
     <Compile Include="Areas\Admin\Controllers\BillController.cs" />
     <Compile Include="Controllers\CartController.cs" />
@@ -331,6 +332,9 @@
     <Content Include="Areas\Admin\Views\Categories\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\AddCate.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\EditCate.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Add.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

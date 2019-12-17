@@ -29,6 +29,10 @@
                 <label>Mật khẩu</label>
                 @Html.TextBoxFor(m => m.Password, new { id = "mk", @class = "form-control", type = "password", placeholder = "Mật khẩu" })
             </div>
+            <div class="form-group input-group" style="display: block;">
+                <label>Nhóm người dùng</label>
+                @Html.TextBoxFor(m => m.Group_ID, new { id = "mk", @class = "form-control", type = "number", placeholder = "Nhóm người dùng" })
+            </div>
             <div style="float: left">
                 <input type="submit" class="btn btn-outline btn-primary" value="Sửa" />
                 <input type="reset" class="btn btn-outline btn-primary" value="Làm lại" />

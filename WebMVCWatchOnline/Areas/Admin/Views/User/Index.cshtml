@@ -21,6 +21,7 @@
                     <th>Email</th>
                     <th>Tên tài khoản</th>
                     <th>Mật khẩu</th>
+                    <th>Nhóm người dùng</th>
                     <th>Sửa</th>
                     <th>Xóa</th>
                 </tr>
@@ -37,6 +38,7 @@
                             <td>@Model[i].Email</td>
                             <td>@Model[i].UserName</td>
                             <td>@Model[i].Password</td>
+                            <td>@Model[i].Group_ID</td>
                             <td><a href="/Admin/User/Edit/@Model[i].Id" class="btn btn-outline btn-primary">Sửa</a></td>
                             <td><a href="/Admin/User/Delete/@Model[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
                         </tr>
@@ -49,6 +51,7 @@
                             <td>@Model[i].Email</td>
                             <td>@Model[i].UserName</td>
                             <td>@Model[i].Password</td>
+                            <td>@Model[i].Group_ID</td>
                             <td><a href="/Admin/User/Edit/@Model[i].Id" class="btn btn-outline btn-primary">Sửa</a></td>
                             <td><a href="/Admin/User/Delete/@Model[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
                         </tr>

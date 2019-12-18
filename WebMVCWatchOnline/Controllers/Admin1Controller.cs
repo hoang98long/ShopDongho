@@ -19,8 +19,8 @@ namespace WebMVCWatchOnline.Controllers
             {
                 return View();
             }
-
         }
+
         [HttpGet]
         public ActionResult LogIn()
         {

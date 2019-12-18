@@ -14,8 +14,16 @@ namespace WebMVCWatchOnline.Controllers
         {
             ShopWatchContext shop = new ShopWatchContext();
             var model = shop.ProductCategories.OrderBy(h => h.CategoryID).ToList().Skip(0).Take(5).ToList();
-
             return View(model);
+        }
+
+        public ActionResult Logout()
+        {
+            if (Session["Id"] != null )
+            {
+                Session["Id"] = null;
+            }
+            return RedirectToAction("Index");
         }
 
         public ActionResult ProductDetail(int id)

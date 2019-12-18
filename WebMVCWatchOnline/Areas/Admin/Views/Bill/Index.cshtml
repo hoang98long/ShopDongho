@@ -45,7 +45,7 @@
                             <td>@double.Parse(@Model.DonHangDaDuyet[i].TotalMoney.ToString()).ToString("##,###") VNĐ</td>
                             <td><a href="/Admin/Bill/Detail/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
 
-                            <td><a href="/Admin/EditBill/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
+                            <td><a href="/Admin/Bill/Delete/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
                         </tr>
                     }
                     else
@@ -58,7 +58,7 @@
                             <td>@double.Parse(@Model.DonHangDaDuyet[i].TotalMoney.ToString()).ToString("##,###") VNĐ</td>
                             <td><a href="/Admin/Bill/Detail/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
 
-                            <td><a href="/Admin/Edit/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
+                            <td><a href="/Admin/Bill/Delete/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
 
                         </tr>
                     }
@@ -96,8 +96,11 @@
                             <td>@Model.DonHangChuaDuyet[i].Number_phone</td>
                             <td>@Model.DonHangChuaDuyet[i].Date</td>
                             <td>@Model.DonHangChuaDuyet[i].TotalMoney</td>
+                            
                             <td><a href="/Admin/Detail/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
+                            <td><a href="/Admin/Bill/Duyet/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Duyệt</a></td>
 
+                            <td><a href="/Admin/Bill/Delete/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
                         </tr>
                     }
                     else
@@ -112,9 +115,9 @@
                             <td>@Model.DonHangChuaDuyet[i].Date</td>
                             <td>@Model.DonHangChuaDuyet[i].TotalMoney</td>
                             <td><a href="/Admin/Detail/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
-                            @*<td><a href="/QLHoaDon/Duyet/@Model.DonHangChuaDuyet[i].MaHoaDon" class="btn btn-outline btn-primary">Duyệt</a></td>
+                            <td><a href="/Admin/Bill/Duyet/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Duyệt</a></td>
 
-                                <td><a href="/QLHoaDon/XoaHd/@Model.DonHangChuaDuyet[i].MaHoaDon" class="btn btn-outline btn-primary">Xóa</a></td>*@
+                                <td><a href="/Admin/Bill/Delete/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
 
                         </tr>
                     }

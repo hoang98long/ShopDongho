@@ -50,7 +50,7 @@
                         <td>@Model[i].ProductID</td>
                         <td>@Model[i].Quantity</td>
                         <td>@double.Parse(@Model[i].TotalMoney.ToString()).ToString("##,###") VNĐ</td>
-                        @* <td><a href="/QLHoaDon/XoaChiTietHd/@Model[i].ChiTietHoaDon1" class="btn btn-outline btn-primary">Xóa</a></td>*@
+                        <td><a href="/Admin/Bill/DeleteDetail/@Model[i].BillID" class="btn btn-outline btn-primary">Xóa</a></td>
                     </tr>
                 }
                 else
@@ -61,7 +61,7 @@
                         <td>@Model[i].ProductID</td>
                         <td>@Model[i].Quantity</td>
                         <td>@double.Parse(@Model[i].TotalMoney.ToString()).ToString("##,###") VNĐ</td>
-                        @* <td><a href="/QLHoaDon/XoaChiTietHd/@Model[i].ChiTietHoaDon1" class="btn btn-outline btn-primary">Xóa</a></td>*@
+                        <td><a href="/Admin/Bill/DeleteDetail/@Model[i].BillID" class="btn btn-outline btn-primary">Xóa</a></td>
                     </tr>
                 }
             }
@@ -81,7 +81,7 @@
         var sl = $(el.parentNode.parentNode.cells[2]).find(':input').val();
 
         $.ajax({
-            url: '/QLHoaDon/SuaChiTietHd/?id=' + id + '&soLuong='+sl+'',
+            url: '/Admin/Bill/EditDetail/?id=' + id + '&soLuong='+sl+'',
             type: 'POST',
             dataType: 'json',
             success: function (data) {

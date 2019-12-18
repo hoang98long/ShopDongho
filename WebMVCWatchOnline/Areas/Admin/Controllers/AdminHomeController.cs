@@ -19,7 +19,14 @@ namespace WebMVCWatchOnline.Areas.Admin.Controllers
             return View();
         }
 
-      
+        public ActionResult Logout()
+        {
+            Session["Id"] = null;
+            Session["Username"] = null;
+
+//            return RedirectToAction("Index", "Home", new {area = ""});
+            return Redirect("~/Admin1/Index");
+        }
 
         [HttpPost]
         public ActionResult DeleteProduct(int id)

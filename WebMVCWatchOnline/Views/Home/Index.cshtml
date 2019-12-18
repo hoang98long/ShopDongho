@@ -11,6 +11,69 @@
 <!--Slider-Starts-Here-->
 <!--End-slider-script-->
 <!--about-starts-->
+<<<<<<< HEAD
+
+
+@section Greedy
+{
+    @if (Session["Id"] != null)
+    {
+        <marquee behavior="scroll" direction="right" style="font-size: 30px; color: crimson; font-weight: bold">Xin chào Nguyễn Thị Hà!!!</marquee>
+    }
+}
+
+@section Logger{
+@if (Session["Id"] == null)
+{
+    <div class="cart box_1">
+        <a href="/Admin1/LogIn">
+
+            <img src="/images/login.png" alt="" />
+        </a>
+        <p><a href="/Admin1/LogIn" class="simpleCart_empty">Đăng nhập</a></p>
+        <p><a href="/Dangki/Index" class="simpleCart_empty">Đăng kí</a></p>
+
+        <div class="clearfix"> </div>
+    </div>
+    <div class="cart box_1">
+        <a href="/Cart/Index">
+            @*<div class="total">
+                        <span class="simpleCart_total"></span>
+                    </div>*@
+            <img src="/images/online-shopping-cart.png" alt="" />
+        </a>
+        <p>
+            <a href="/Cart/Index" class="simpleCart_empty">Giỏ hàng</a>
+        </p>
+        <div class="clearfix"> </div>
+    </div>
+}
+else
+{
+    <div class="cart box_1">
+        <a href="/Admin1/LogIn">
+            <img src="/images/login.png" alt="" />
+        </a>
+        <p></p>
+        <p><a href="/Home/Logout/" class="simpleCart_empty">Đăng xuất</a></p>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="cart box_1">
+        <a href="/Cart/Index">
+            @*<div class="total">
+                        <span class="simpleCart_total"></span>
+                    </div>*@
+            <img src="/images/online-shopping-cart.png" alt="" />
+        </a>
+        <p>
+            <a href="/Cart/Index" class="simpleCart_empty">Giỏ hàng</a>
+        </p>
+        <div class="clearfix"> </div>
+    </div>
+}}
+
+=======
+>>>>>>> 44035bf601907584a46a3abaa44064ad94130161
 <div class="about">
     <div class="container">
 

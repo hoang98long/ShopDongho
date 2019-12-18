@@ -61,6 +61,7 @@ namespace WebMVCWatchOnline.Areas.Admin.Controllers
                 tk.Email = model.Email;
                 tk.UserName = model.UserName;
                 tk.Password = model.Password;
+                tk.Group_ID = model.Group_ID;
                 shop.User_.Add(tk);
                 shop.SaveChanges();
                 Response.Redirect("Index");
@@ -100,6 +101,7 @@ namespace WebMVCWatchOnline.Areas.Admin.Controllers
                 tk.Email = taiKhoan.Email;
                 tk.UserName = taiKhoan.UserName;
                 tk.Password = taiKhoan.Password;
+                tk.Group_ID = taiKhoan.Group_ID;
                 shop.SaveChanges();
                 var model = shop.User_.OrderByDescending(s => s.Id).ToList();
                 return View("Index", model);

@@ -343,6 +343,11 @@
     <Content Include="Areas\Admin\Views\Bill1\EditBill.cshtml" />
     <Content Include="Areas\Admin\Views\Bill1\Index1.cshtml" />
     <Content Include="Areas\Admin\Views\Bill\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\AddBill.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\AddDetail.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\ConfirmDetail.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\Detail.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\EditBill.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

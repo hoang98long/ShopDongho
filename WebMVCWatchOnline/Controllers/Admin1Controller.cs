@@ -42,6 +42,7 @@ namespace WebMVCWatchOnline.Controllers
                     {
                         Session["Id"] = taikhoan.Id;
                         Session["Username"] = taikhoan.UserName;
+                        Session["Name"] = taikhoan.Name;
                         return Redirect("/Admin/AdminHome/Index");
                     }
                     else

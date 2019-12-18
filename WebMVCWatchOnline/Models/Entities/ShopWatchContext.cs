@@ -8,7 +8,7 @@ namespace WebMVCWatchOnline.Models.Entities
     public partial class ShopWatchContext : DbContext
     {
         public ShopWatchContext()
-            : base("name=ShopWatchContext")
+            : base("name=ShopWatchContext2")
         {
         }
 

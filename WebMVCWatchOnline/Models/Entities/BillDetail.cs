@@ -17,6 +17,6 @@ namespace WebMVCWatchOnline.Models.Entities
 
         public int? Quantity { get; set; }
 
-        public int? TotalMoney { get; set; }
+        public decimal? TotalMoney { get; set; }
     }
 }

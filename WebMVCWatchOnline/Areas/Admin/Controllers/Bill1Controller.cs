@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using WebMVCWatchOnline.Models.Entities;
 using WebMVCWatchOnline.Models.Functions;
 
-namespace WebMVCWatchOnline.Areas.Admin.Controllers
+namespace ShopWatches.Controllers
 {
-    public class BillController : Controller
+    public class Bill1Controller : Controller
     {
         // GET: QLHoaDon
 

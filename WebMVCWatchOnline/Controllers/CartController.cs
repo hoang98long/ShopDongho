@@ -89,7 +89,7 @@ namespace WebMVCWatchOnline.Controllers
             int id = maxId.Id;
             hd.Id = id + 1;
             hd.Customer_Id = hoadon.Customer_Id;
-            hd.TotalMoney = hoadon.TotalMoney;
+            hd.TotalMoney = tong;
             hd.Date = hoadon.Date;
             hd.Status = hoadon.Status;
             hd.Email = hoadon.Email;

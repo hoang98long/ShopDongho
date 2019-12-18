@@ -8,7 +8,7 @@ using WebMVCWatchOnline.Models.Functions;
 
 namespace ShopWatches.Controllers
 {
-    public class BillController : Controller
+    public class Bill1Controller : Controller
     {
         // GET: QLHoaDon
 
@@ -194,7 +194,7 @@ namespace ShopWatches.Controllers
                 ct.BillID = mahd;
                 ct.ProductID = SanPham;
                 ct.Quantity = SoLuong;
-                //ct.TotalMoney = SoLuong * sp.Price;
+                ct.TotalMoney = SoLuong * sp.Price;
                 shop.BillDetails.Add(ct);
                 hd.TotalMoney += ct.TotalMoney;
                 shop.SaveChanges();
@@ -245,9 +245,8 @@ namespace ShopWatches.Controllers
                 ShopWatchContext shop = new ShopWatchContext();
                 var ct = shop.BillDetails.SingleOrDefault(c => c.BillID == id);
 
-                /*ct.TotalMoney += (soLuong * shop.Products.) - ct.TotalMoney;
-                ct.SoLuong = soLuong;
-                ct.TongTien = soLuong * ct.SanPham.GiaBan;*/
+                ct.TotalMoney += (soLuong * shop.Products.Where(h => h.ProductID == id).FirstOrDefault().Price) - ct.TotalMoney;
+                ct.Quantity = soLuong;
                 shop.SaveChanges();
                 return this.Json(new { data = true }, JsonRequestBehavior.AllowGet); ;
             }

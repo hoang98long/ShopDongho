@@ -1,0 +1,127 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+@using WebMVCWatchOnline.Models.Entities;
+@model Donhang
+<link href="~/Content/dataTables.bootstrap.css" rel="stylesheet" />
+<div class="page-header">
+    <a href="#tab_1-1" data-toggle="tab" class="btn btn-outline btn-primary">Đã xác nhận</a>
+
+    <a href="#tab_2-2" data-toggle="tab" class="btn btn-outline btn-primary">chưa xác nhận</a>
+
+
+</div>
+<div class="dataTable_wrapper tab-content">
+
+    <div class="tab-pane active" id="tab_1-1">
+        <table class="table table-striped table-bordered table-hover" id="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Khách hàng</th>
+                    <th>Nơi giao</th>
+                    <th>Thời gian</th>
+                    <th>Tổng</th>
+                    <th>Chi tiết</th>
+
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @for (int i = 0; i < Model.DonHangDaDuyet.Count; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        <tr class="even gradeA">
+                            <td>@Model.DonHangDaDuyet[i].Id</td>
+                            <td>@Model.DonHangDaDuyet[i].Customer_Name</td>
+                            <td>@Model.DonHangDaDuyet[i].Address</td>
+                            <td>@Model.DonHangDaDuyet[i].Date</td>
+                            <td>@double.Parse(@Model.DonHangDaDuyet[i].TotalMoney.ToString()).ToString("##,###") VNĐ</td>
+                            <td><a href="/Admin/Detail/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
+
+                            <td><a href="/Admin/EditBill/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr class="odd gradeA">
+                            <td>@Model.DonHangDaDuyet[i].Id</td>
+                            <td>@Model.DonHangDaDuyet[i].Customer_Name</td>
+                            <td>@Model.DonHangDaDuyet[i].Address</td>
+                            <td>@Model.DonHangDaDuyet[i].Date</td>
+                            <td>@double.Parse(@Model.DonHangDaDuyet[i].TotalMoney.ToString()).ToString("##,###") VNĐ</td>
+                            <td><a href="/Admin/Detial/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
+
+                            <td><a href="/Admin/Edit/@Model.DonHangDaDuyet[i].Id" class="btn btn-outline btn-primary">Xóa</a></td>
+
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="tab-pane" id="tab_2-2">
+        <table class="table table-striped table-bordered table-hover" id="table2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Khách hàng</th>
+                    <th>Địa chỉ</th>
+                    <th>Email</th>
+                    <th>SĐT</th>
+                    <th>Thời gian</th>
+                    <th>Tổng</th>
+                    <th>Chi tiết</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @for (int i = 0; i < Model.DonHangChuaDuyet.Count; i++)
+            {
+                if (i % 2 == 0)
+                {
+                        <tr class="even gradeA">
+                            <td>@Model.DonHangChuaDuyet[i].Id</td>
+                            <td>@Model.DonHangChuaDuyet[i].Customer_Name</td>
+                            <td>@Model.DonHangChuaDuyet[i].Address</td>
+                            <td>@Model.DonHangChuaDuyet[i].Email</td>
+                            <td>@Model.DonHangChuaDuyet[i].Number_phone</td>
+                            <td>@Model.DonHangChuaDuyet[i].Date</td>
+                            <td>@Model.DonHangChuaDuyet[i].TotalMoney</td>
+                            <td><a href="/Admin/Detail/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
+
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr class="odd gradeA">
+
+                            <td>@Model.DonHangChuaDuyet[i].Id</td>
+                            <td>@Model.DonHangChuaDuyet[i].Customer_Name</td>
+                            <td>@Model.DonHangChuaDuyet[i].Address</td>
+                            <td>@Model.DonHangChuaDuyet[i].Email</td>
+                            <td>@Model.DonHangChuaDuyet[i].Number_phone</td>
+                            <td>@Model.DonHangChuaDuyet[i].Date</td>
+                            <td>@Model.DonHangChuaDuyet[i].TotalMoney</td>
+                            <td><a href="/Admin/Detail/@Model.DonHangChuaDuyet[i].Id" class="btn btn-outline btn-primary">Chi tiết</a></td>
+                            @*<td><a href="/QLHoaDon/Duyet/@Model.DonHangChuaDuyet[i].MaHoaDon" class="btn btn-outline btn-primary">Duyệt</a></td>
+
+                                <td><a href="/QLHoaDon/XoaHd/@Model.DonHangChuaDuyet[i].MaHoaDon" class="btn btn-outline btn-primary">Xóa</a></td>*@
+
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

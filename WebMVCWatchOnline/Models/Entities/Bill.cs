@@ -14,7 +14,7 @@ namespace WebMVCWatchOnline.Models.Entities
 
         public int Customer_Id { get; set; }
 
-        public double? TotalMoney { get; set; }
+        public decimal? TotalMoney { get; set; }
 
         public DateTime? Date { get; set; }
 

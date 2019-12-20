@@ -26,33 +26,33 @@ namespace WebMVCWatchOnline.Controllers
         [HttpPost]
         public ActionResult AddToCart(int id, int soLuong)
         {
+                ShopWatchContext db = new ShopWatchContext();
+                var p = db.Products.SingleOrDefault(s => s.ProductID.Equals(id));
 
-            ShopWatchContext db = new ShopWatchContext();
-            var p = db.Products.SingleOrDefault(s => s.ProductID.Equals(id));
-
-            if (p != null)
-            {
-                F_Cart objCart = (F_Cart)Session["Cart"];
-                if (objCart == null)
+                if (p != null)
                 {
-                    objCart = new F_Cart();
+                    F_Cart objCart = (F_Cart)Session["Cart"];
+                    if (objCart == null)
+                    {
+                        objCart = new F_Cart();
+                    }
+                    F_Cart.CartItem item = new F_Cart.CartItem()
+                    {
+                        Image = p.ProductImage,
+                        ProductName = p.ProductName,
+                        ProductId = p.ProductID,
+                        Quantity = soLuong,
+                        Price = p.Price.ToString(),
+
+                        Amount = Convert.ToDouble(p.Price.ToString().Trim().Replace(",", string.Empty).Replace(".", string.Empty)) * soLuong
+                    };
+                    objCart.Addtocart(item);
+                    Session["Cart"] = objCart;
                 }
-                F_Cart.CartItem item = new F_Cart.CartItem()
-                {
-                    Image = p.ProductImage,
-                    ProductName = p.ProductName,
-                    ProductId = p.ProductID,
-                    Quantity = soLuong,
-                    Price = p.Price.ToString(),
-
-                    Amount = Convert.ToDouble(p.Price.ToString().Trim().Replace(",", string.Empty).Replace(".", string.Empty)) * soLuong
-                };
-                objCart.Addtocart(item);
-                Session["Cart"] = objCart;
-            }
-            JsonSerializerSettings jss = new JsonSerializerSettings { ReferenceLoopHandling = ReferenceLoopHandling.Ignore };
-            var result = JsonConvert.SerializeObject("Thêm thành công", Formatting.Indented, jss);
-            return this.Json(result, JsonRequestBehavior.AllowGet); ;
+                JsonSerializerSettings jss = new JsonSerializerSettings { ReferenceLoopHandling = ReferenceLoopHandling.Ignore };
+                var result = JsonConvert.SerializeObject("Thêm thành công", Formatting.Indented, jss);
+                return this.Json(result, JsonRequestBehavior.AllowGet); ;
+            
         }
         // cập nhật giỏ hàng theo loại sản phẩm và số lượng
         public ActionResult UpdateQuantity(string ProductID, int soLuong)

@@ -49,9 +49,10 @@
                 @{
                     double tong = 0;
                 }
-                @foreach (var item in Model.F_Cart.CartList) 
-                 { 
-                     tong += item.Amount; 
+                @foreach (var item in Model.F_Cart.CartList)
+                {
+                    tong += item.Amount;
+                    double price = double.Parse(item.Price) * item.Quantity;
                    <tr>
                          <td data-th="Product"> 
                             <div class="row"> 
@@ -67,7 +68,8 @@
                          <td data-th="Quantity"> 
                               @InputExtensions.TextBox(Html, "Product" + item.ProductId.ToString(), item.Quantity, new { @class = "form-control text-center soluong", type = "number" }) 
                           </td> 
-                         <td data-th="Subtotal" class="text-center">@double.Parse(@item.Price.ToString()).ToString("##,###")</td> 
+                     
+                         <td data-th="Subtotal" class="text-center">@price.ToString("##,###")</td> 
                           <td class="actions" data-th=""> 
                               <a href="/Cart/DeleteProduct/@item.ProductId" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a> 
                           </td> 

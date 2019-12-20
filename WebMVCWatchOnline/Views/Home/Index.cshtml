@@ -12,11 +12,12 @@
 <!--End-slider-script-->
 <!--about-starts-->
 
+
 @section Greedy
 {
     @if (Session["Id"] != null)
     {
-        <marquee behavior="scroll" direction="right" style="font-size: 30px; color: crimson; font-weight: bold">Xin chào Nguyễn Thị Hà!!!</marquee>
+        <marquee behavior="scroll" direction="right" style="font-size: 30px; color: crimson; font-weight: bold">Xin chào @Session["Name"]!!!</marquee>
     }
 }
 

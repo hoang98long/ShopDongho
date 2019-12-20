@@ -52,16 +52,16 @@ namespace WebMVCWatchOnline.Controllers
             }
             JsonSerializerSettings jss = new JsonSerializerSettings { ReferenceLoopHandling = ReferenceLoopHandling.Ignore };
             var result = JsonConvert.SerializeObject("Thêm thành công", Formatting.Indented, jss);
-            return this.Json(result, JsonRequestBehavior.AllowGet); ;       
+            return this.Json(result, JsonRequestBehavior.AllowGet); ;
         }
-            // cập nhật giỏ hàng theo loại sản phẩm và số lượng
+        // cập nhật giỏ hàng theo loại sản phẩm và số lượng
         public ActionResult UpdateQuantity(string ProductID, int soLuong)
         {
             int id = Convert.ToInt32(ProductID.Substring(7, ProductID.Length - 7));
             F_Cart objCart = (F_Cart)Session["Cart"];
             if (objCart != null)
             {
-              objCart.UpdateQuantity(id, soLuong);
+                objCart.UpdateQuantity(id, soLuong);
                 Session["Cart"] = objCart;
             }
             return RedirectToAction("index");
@@ -117,8 +117,12 @@ namespace WebMVCWatchOnline.Controllers
 
         public ActionResult FillInfo()
         {
+            ShopWatchContext context = new ShopWatchContext();
+            var customer = context.User_.Where(h=>h.Group_ID == 3).OrderByDescending(p => p.Id).ToList();
+            List<SelectListItem> lKH = customer.Select(t => new SelectListItem() { Text = t.Id.ToString(), Value = t.Id.ToString() }).ToList();
+            ViewBag.ListCustomer = lKH;
             return View();
         }
-    
+
     }
 }

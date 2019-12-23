@@ -44,12 +44,12 @@ namespace WebMVCWatchOnline.Controllers
                     Session["Username"] = taikhoan.UserName;
                     Session["Name"] = taikhoan.Name;
                     
-                    if (Session["IdWaiting"] != null)
+                    if (Session["IdWaiting"] != null && taikhoan.Group_ID == 3)
                     {
                         string id = (Session["IdWaiting"].ToString()), soLuong = (Session["NumWaiting"].ToString());
                         Session["IdWaiting"] = null;
                         Session["NumWaiting"] = null;
-                        RedirectToAction("AddToCart", "Cart", new {id, soLuong});
+                        RedirectToAction("AddToCart", "Cart", new {id = id, soLuong = soLuong});
                         return RedirectToAction("ProductDetail", "Home", new {id = id});
                     }
 

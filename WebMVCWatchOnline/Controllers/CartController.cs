@@ -28,7 +28,16 @@ namespace WebMVCWatchOnline.Controllers
         {
                 ShopWatchContext db = new ShopWatchContext();
                 var p = db.Products.SingleOrDefault(s => s.ProductID.Equals(id));
-
+                if (Session["Id"] == null)
+                {
+//                    return RedirectToAction("Index", "Admin1");
+                    JsonSerializerSettings jsss = new JsonSerializerSettings { ReferenceLoopHandling = ReferenceLoopHandling.Ignore };
+                    var resultt = JsonConvert.SerializeObject("Bạn chưa đăng nhập hoặc đăng ký", Formatting.Indented, jsss);
+                    Session["IdWaiting"] = id;
+                    Session["NumWaiting"] = soLuong;
+                    return this.Json(resultt, JsonRequestBehavior.AllowGet); ;
+                }
+                
                 if (p != null)
                 {
                     F_Cart objCart = (F_Cart)Session["Cart"];

@@ -21,93 +21,92 @@
     }
 }
 
-@section Logger{
-@if (Session["Id"] == null)
-{
-    <div class="cart box_1">
-        <a href="/Admin1/LogIn">
+@* @section Logger{ *@
+@* @if (Session["Id"] == null) *@
+@* { *@
+@*     <div class="cart box_1"> *@
+@*         <a href="/Admin1/LogIn"> *@
+@* *@
+@*             <img src="/images/login.png" alt="" /> *@
+@*         </a> *@
+@*         <p><a href="/Admin1/LogIn" class="simpleCart_empty">Đăng nhập</a></p> *@
+@*         <p><a href="/Dangki/Index" class="simpleCart_empty">Đăng kí</a></p> *@
+@* *@
+@*         <div class="clearfix"> </div> *@
+@*     </div> *@
+@*     <div class="cart box_1"> *@
+@*         <a href="/Cart/Index"> *@
+@*             @*<div class="total"> *@
+@*                         <span class="simpleCart_total"></span> *@
+@*                     </div>*@ 
+@*             <img src="/images/online-shopping-cart.png" alt="" /> *@
+@*         </a> *@
+@*         <p> *@
+@*             <a href="/Cart/Index" class="simpleCart_empty">Giỏ hàng</a> *@
+@*         </p> *@
+@*         <div class="clearfix"> </div> *@
+@*     </div> *@
+@* } *@
+@* else *@
+@* { *@
+@*     <div class="cart box_1"> *@
+@*         <a href="/Admin1/LogIn"> *@
+@*             <img src="/images/login.png" alt="" /> *@
+@*         </a> *@
+@*         <p></p> *@
+@*         <p><a href="/Home/Index/" class="simpleCart_empty">Đăng xuất</a></p> *@
+@*         <div class="clearfix"> </div> *@
+@*     </div> *@
+@*     <div class="cart box_1"> *@
+@*         <a href="/Cart/Index"> *@
+@*             @*<div class="total"> *@
+@*                         <span class="simpleCart_total"></span> *@
+@*                     </div>*@ 
+@*             <img src="/images/online-shopping-cart.png" alt="" /> *@
+@*         </a> *@
+@*         <p> *@
+@*             <a href="/Cart/Index" class="simpleCart_empty">Giỏ hàng</a> *@
+@*         </p> *@
+@*         <div class="clearfix"> </div> *@
+@*     </div> *@
+@* }} *@
+@* *@
+@* <div class="about"> *@
+@*     <div class="container"> *@
+@* *@
+@*         <div class="about-top grid-1"> *@
+@*             <div class="col-md-4 about-left"> *@
+@*                 <figure class="effect-bubba"> *@
+@*                     <img class="img-responsive" src="~/images/abt-1.jpg" alt="" /> *@
+@*                     <figcaption> *@
+@*                         <h2>Đồng hồ Thụy Sĩ</h2> *@
+@*                         <p>Sang trọng - Quý phái</p> *@
+@*                     </figcaption> *@
+@*                 </figure> *@
+@*             </div> *@
+@*             <div class="col-md-4 about-left"> *@
+@*                 <figure class="effect-bubba"> *@
+@*                     <img class="img-responsive" src="~/images/abt-2.jpg" alt="" /> *@
+@*                     <figcaption> *@
+@*                         <h4>Đồng hồ Rolex</h4> *@
+@*                         <p>Mạnh mẽ - Sang trọng</p> *@
+@*                     </figcaption> *@
+@*                 </figure> *@
+@*             </div> *@
+@*             <div class="col-md-4 about-left"> *@
+@*                 <figure class="effect-bubba"> *@
+@*                     <img class="img-responsive" src="~/images/abt-3.jpg" alt="" /> *@
+@*                     <figcaption> *@
+@*                         <h4>Đồng hồ Titan</h4> *@
+@*                         <p>Phong cách - Thời trang</p> *@
+@*                     </figcaption> *@
+@*                 </figure> *@
+@*             </div> *@
+@*             <div class="clearfix"></div> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
 
-            <img src="/images/login.png" alt="" />
-        </a>
-        <p><a href="/Admin1/LogIn" class="simpleCart_empty">Đăng nhập</a></p>
-        <p><a href="/Dangki/Index" class="simpleCart_empty">Đăng kí</a></p>
-
-        <div class="clearfix"> </div>
-    </div>
-    <div class="cart box_1">
-        <a href="/Cart/Index">
-            @*<div class="total">
-                        <span class="simpleCart_total"></span>
-                    </div>*@
-            <img src="/images/online-shopping-cart.png" alt="" />
-        </a>
-        <p>
-            <a href="/Cart/Index" class="simpleCart_empty">Giỏ hàng</a>
-        </p>
-        <div class="clearfix"> </div>
-    </div>
-}
-else
-{
-    <div class="cart box_1">
-        <a href="/Admin1/LogIn">
-            <img src="/images/login.png" alt="" />
-        </a>
-        <p></p>
-        <p><a href="/Home/Index/" class="simpleCart_empty">Đăng xuất</a></p>
-        <div class="clearfix"> </div>
-    </div>
-    <div class="cart box_1">
-        <a href="/Cart/Index">
-            @*<div class="total">
-                        <span class="simpleCart_total"></span>
-                    </div>*@
-            <img src="/images/online-shopping-cart.png" alt="" />
-        </a>
-        <p>
-            <a href="/Cart/Index" class="simpleCart_empty">Giỏ hàng</a>
-        </p>
-        <div class="clearfix"> </div>
-    </div>
-}}
-
-<div class="about">
-    <div class="container">
-
-        <div class="about-top grid-1">
-            <div class="col-md-4 about-left">
-                <figure class="effect-bubba">
-                    <img class="img-responsive" src="~/images/abt-1.jpg" alt="" />
-                    <figcaption>
-                        <h2>Đồng hồ Thụy Sĩ</h2>
-                        <p>Sang trọng - Quý phái</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 about-left">
-                <figure class="effect-bubba">
-                    <img class="img-responsive" src="~/images/abt-2.jpg" alt="" />
-                    <figcaption>
-                        <h4>Đồng hồ Rolex</h4>
-                        <p>Mạnh mẽ - Sang trọng</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-4 about-left">
-                <figure class="effect-bubba">
-                    <img class="img-responsive" src="~/images/abt-3.jpg" alt="" />
-                    <figcaption>
-                        <h4>Đồng hồ Titan</h4>
-                        <p>Phong cách - Thời trang</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--about-end-->
-<!--product-starts-->
 
 <div class="product">
     <div class="container">

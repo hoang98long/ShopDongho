@@ -30,6 +30,8 @@ namespace WebMVCWatchOnline.Controllers
         public ActionResult LogIn(User_ tk)
         {
 
+            
+
             ShopWatchContext shop = new ShopWatchContext();
             var taikhoan = shop.User_.Where((z => z.UserName.ToLower() == tk.UserName.ToLower())).Where(z => z.Password.ToLower() == tk.Password.ToLower()).FirstOrDefault();
 
@@ -38,11 +40,25 @@ namespace WebMVCWatchOnline.Controllers
             {
                 if (taikhoan != null)
                 {
+                    Session["Id"] = taikhoan.Id;
+                    Session["Username"] = taikhoan.UserName;
+                    Session["Name"] = taikhoan.Name;
+                    
+                    if (Session["IdWaiting"] != null)
+                    {
+                        string id = (Session["IdWaiting"].ToString()), soLuong = (Session["NumWaiting"].ToString());
+                        Session["IdWaiting"] = null;
+                        Session["NumWaiting"] = null;
+                        RedirectToAction("AddToCart", "Cart", new {id, soLuong});
+                        return RedirectToAction("ProductDetail", "Home", new {id = id});
+                    }
+
+//                    TODO
                     if (taikhoan.Group_ID == 1)
                     {
-                        Session["Id"] = taikhoan.Id;
-                        Session["Username"] = taikhoan.UserName;
-                        Session["Name"] = taikhoan.Name;
+//                        Session["Id"] = taikhoan.Id;
+//                        Session["Username"] = taikhoan.UserName;
+//                        Session["Name"] = taikhoan.Name;
                         return Redirect("/Admin/AdminHome/Index");
                     }
                     else

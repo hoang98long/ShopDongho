@@ -126,10 +126,10 @@ namespace WebMVCWatchOnline.Controllers
 
         public ActionResult FillInfo()
         {
-            ShopWatchContext context = new ShopWatchContext();
+            /*ShopWatchContext context = new ShopWatchContext();
             var customer = context.User_.Where(h=>h.Group_ID == 3).OrderByDescending(p => p.Id).ToList();
             List<SelectListItem> lKH = customer.Select(t => new SelectListItem() { Text = t.Id.ToString(), Value = t.Id.ToString() }).ToList();
-            ViewBag.ListCustomer = lKH;
+            ViewBag.ListCustomer = lKH;*/
             return View();
         }
 

@@ -29,6 +29,7 @@ namespace WebMVCWatchOnline.Models.Entities
         public virtual DbSet<UserGroup> UserGroups { get; set; }
         public virtual DbSet<UserRole> UserRoles { get; set; }
         public virtual DbSet<NewsFeed> NewsFeeds { get; set; }
+        public virtual DbSet<News> News { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

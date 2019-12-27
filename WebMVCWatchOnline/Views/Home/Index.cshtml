@@ -126,7 +126,7 @@
                             {
                                 <div class="col-md-4 product-left p-left">
                                     <div class="product-main simpleCart_shelfItem">
-                                        <a href="/Home/ProductDetail/@sp.ProductID" class="mask"><img class="img-responsive-2 zoom-img" src="@sp.ProductImage" alt="" /></a>
+                                        <a href="/Home/ProductDetail/@sp.ProductID" class="mask"><img class="zoom-img img-responsive-2 " src="@sp.ProductImage" alt="" style="height: 300px; width: 100%;background-size: cover"/></a>
                                         <div class="product-bottom">
                                             <h3>@sp.ProductName</h3>
                                             <h4><a class="item_add" href="javascript:;" onclick="AddToCart(@sp.ProductID)"><i><img src="/images/online-shopping-cart.png" alt="" /></i></a> <span class="item_price">@double.Parse(sp.Price.ToString()).ToString("##,###") VNĐ</span></h4>

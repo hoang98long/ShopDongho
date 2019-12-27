@@ -252,7 +252,7 @@ namespace WebMVCWatchOnline.Areas.Admin.Controllers
                 }
 
 
-                return View("Index", shop);
+                return View("Index", shop.Products.ToList().ToPagedList(10, 1));
             }
         }
     }

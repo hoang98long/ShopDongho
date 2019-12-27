@@ -1,0 +1,24 @@
+﻿@using WebMVCWatchOnline.Models.Entities
+@{
+    ViewBag.Title = "EditProduct";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+
+@model Product
+
+<h2>EditProduct</h2>
+
+<div>
+    <form action="/Admin/Custom01/EditProduct" method="post">
+        <div>
+            <input type="text" name="ProductID" id="id" readonly="readonly" value="@Model.ProductID"/>
+        </div>
+        <div>
+            <input type="text" name="ProductName" id="name" value="@Model.ProductName"/>
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+            <input type="" value="Cancel"/>
+        </div>
+    </form>
+</div>

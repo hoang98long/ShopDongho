@@ -179,7 +179,10 @@
     </div>
     <!--bottom-header-->
     <!--banner-starts-->
-    @Html.Partial("Slide")
+@* @Html.Partial("Slide") *@
+@{
+    Html.RenderPartial("Slide");
+}
     @RenderBody()
     <div style="padding-bottom: 25px;border-bottom: 1px solid #f0f0f0;margin-bottom: 25px;"></div>
     <!--product-end-->
